@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+    background-color: rgba(255, 0, 0, 0);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 98;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header{
+    padding-top: 30px;
+    padding-right:20px;
+}
+
+header nav ul li a{
+    background-color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: black;
+}
+
+header ul{
+    list-style: none;
+}
+
+header ul li {
+    float:right;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.container-shoes{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 90px;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 100px;
+}
+
+#first-shoes{
+    background-color: red; 
+}
+
+#first-shoes div p, #second-shoes div p {
+    color: yellow;
+}
+
+#second-shoes{
+    background-color: green;
+}
+
+#third-shoes{
+    background-color: yellow;
+}
+
+#third-shoes div p {
+    color: green;
+}
