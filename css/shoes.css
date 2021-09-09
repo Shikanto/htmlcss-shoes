@@ -9,10 +9,9 @@ body{
 }
 
 header {
-    background-color: rgba(255, 0, 0, 0);
+    /* background-color: rgba(255, 0, 0, 0); */
     position: fixed;
     width: 100%;
-    top: 0;
     z-index: 98;
 }
 
@@ -24,7 +23,7 @@ nav ul::after{
 
 header{
     padding-top: 30px;
-    padding-right:20px;
+    /* padding-right:20px; */
 }
 
 header nav ul li a{
@@ -68,9 +67,14 @@ header ul li {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-size: 90px;
+    font-size: 80px;
     text-align: center;
     font-weight: bolder;
+}
+
+.container-shoes img{
+    max-height: 400px;
+    height: 100vh;
 }
 
 #first-shoes{
